@@ -31,6 +31,7 @@ const prefix = ((Platform.OS === 'android') ? 'file://' : '')
 const testImageName = `image-from-react-native-${Platform.OS}-${new Date()}.png`
 const testFile = null
 
+
 const API_KEY = ''
 const APP_NAME = ''
 const EMAIL = ''
@@ -84,7 +85,8 @@ describe('firebase login', (report, done) => {
       <Info key="user content" uid="user data">
         <Text>{JSON.stringify(user)}</Text>
       </Info>)
-    done()
+    if(user !== null)
+      done()
   })
 })
 
