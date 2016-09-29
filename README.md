@@ -5,6 +5,8 @@ along with firebase SDK to upload file to Firebase storage. Though React
 Native does not support Blob object, with help of react-native-fetch-blob
 polyfill you're able to do this.
 
+**If you installed previous version please upgrade react-native-fetch-blob to `0.9.6-beta.2` to fix login and realtime database error**
+
 ## prerequisite
 
 - react-native-cli installed
