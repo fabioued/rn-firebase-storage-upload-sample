@@ -8,7 +8,7 @@
   "dependencies": {
     "firebase": "^3.6.2",
     "react": "15.2.1",
-    "react-native": "^0.37.0",
+    "react-native": "^0.28.0",
     "react-native-fetch-blob": "0.10.1-beta.2",
     "react-native-testkit": "^0.1.1"
   }
